@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Consultorio de Pilates</title>
+
+
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #4a4a4a;
+
+    background:
+        linear-gradient(
+            rgba(243,238,232,0.9),
+            rgba(243,238,232,0.95)
+        ),
+        url("imagenes/fondo.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background: #f4eaf3;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.servicios {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicio {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.servicio h3 {
+    margin-top: 0;
+}
+
+.contacto {
+    background: #f4eaf3;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    background: #cd25d3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+</style>
+
+<body>
+
+<header>
+    <h1>Kinesiologia & Pilates reformer</h1>
+    <p>Movimiento terapeutico basado en evidencia</p>
+</header>
+
+<img src="imagenes/portada1.0.png"
+     alt="Consultorio de Pilates"
+     style="width:100%; max-height:400px; object-fit:cover; border-radius:20px;">
+
+<section>
+    <h2 style="text-align:center">Galería</h2>
+
+    <div style="
+        display:flex;
+        gap:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    ">
+
+        <img src="imagenes/portada2.jpg"
+             alt="Sala de Pilates"
+             style="width:280px; height:200px; object-fit:cover; border-radius:15px;">
+
+        <img src="imagenes/portada3.jpg"
+             alt="Pilates Reformer"
+             style="width:280px; height:200px; object-fit:cover; border-radius:15px;">
+
+        <img src="imagenes/portada4.jpg"
+             alt="Consultorio de Pilates"
+             style="width:280px; height:200px; object-fit:cover; border-radius:15px;">
+
+    </div>
+</section>
+
+<section class="sobre">
+    <h2>Sobre el consultorio</h2>
+    <p>
+        Espacio dedicado al bienestar físico y mental, con clases personalizadas de pilates
+        orientadas a mejorar la postura, fuerza y flexibilidad.
+    </p>
+</section>
+
+<section>
+    <h2 style="text-align:center">Servicios</h2>
+    <div class="servicios">
+        <div class="servicio">
+            <h3>Pilates Terapéutico</h3>
+            <p>Ideal para rehabilitación, dolores de espalda y mejora postural.</p>
+        </div>
+
+        <div class="servicio">
+            <h3>Pilates Reformer</h3>
+            <p>Trabajo integral con máquinas para mayor precisión y control.</p>
+        </div>
+
+        <div class="servicio">
+            <h3>Clases Personalizadas</h3>
+            <p>Atención individual adaptada a cada alumno.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="contacto">
+    <h2>Contacto</h2>
+
+    <a class="whatsapp" 
+       href="https://wa.me/543454099916" 
+       target="_blank">
+       WhatsApp Consultorio
+    </a>
+
+    <br><br>
+
+    <a class="whatsapp" 
+       href="https://wa.me/543454945036" 
+       target="_blank">
+       WhatsApp Turnos
+    </a>
+</section>
+</body>
+</html>
