@@ -1,0 +1,22 @@
+# No subir carpetas de VSCode
+.vscode/
+
+# No subir caché ni temporales de tu PC
+AppData/
+*.log
+*.bin
+
+# No subir librerías instaladas
+node_modules/
+# Archivos de VSCode
+.vscode/
+*.code-workspace
+
+# Archivos temporales del sistema
+AppData/
+*.tmp
+*.log
+*.bak
+
+# Node modules
+node_modules/
